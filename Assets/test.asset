@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a829826ecca08487881876f5f325e35c, type: 3}
+  m_Name: test
+  m_EditorClassIdentifier: Assembly-CSharp::StoryGraph
+  storyNodes:
+  - nodeId: 7bdea08e-0570-4115-a4c9-96ab063f4591
+    nodeTitle: test1
+    NodeEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    nodePosition: {x: 42.623604, y: 186.4175}
+    parentNodeId: 
+    nodeSpeaker: 
+    nodeContent: bah
+    nextNodeId: 88d6313c-5580-45f9-bcd0-1526069cb0a6
+  - nodeId: 88d6313c-5580-45f9-bcd0-1526069cb0a6
+    nodeTitle: test2
+    NodeEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    nodePosition: {x: 333.68665, y: 181.25851}
+    parentNodeId: 
+    nodeSpeaker: 
+    nodeContent: bahbah
+    nextNodeId: ade5a04c-f8d5-4bed-b861-041a0a042dfc
+  - nodeId: bc56998b-1b2a-420c-a68c-4a39415de515
+    nodeTitle: test3
+    NodeEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    nodePosition: {x: 837.1518, y: 8.335411}
+    parentNodeId: 
+    nodeSpeaker: 
+    nodeContent: weee
+    nextNodeId: 
+  - nodeId: ecab00f3-8f26-4032-85a1-2a06396a8c02
+    nodeTitle: test4
+    NodeEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    nodePosition: {x: 845.5, y: 251}
+    parentNodeId: 
+    nodeSpeaker: 
+    nodeContent: 
+    nextNodeId: 
+  - nodeId: 97910df9-7ad3-482f-b5b0-7df99ce3b0f2
+    nodeTitle: 
+    NodeEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    nodePosition: {x: 963.85785, y: 483.8023}
+    parentNodeId: 
+    nodeSpeaker: 
+    nodeContent: 
+    nextNodeId: 
+  branchNodes:
+  - nodeId: ade5a04c-f8d5-4bed-b861-041a0a042dfc
+    nodeTitle: branch
+    NodeEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    nodePosition: {x: 580.9504, y: 111.77731}
+    parentNodeId: 
+    nextNodeIds:
+    - bc56998b-1b2a-420c-a68c-4a39415de515
+    - ecab00f3-8f26-4032-85a1-2a06396a8c02
+  - nodeId: a1a18e64-c4a6-43de-bf29-37f43b4b2deb
+    nodeTitle: 
+    NodeEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    nodePosition: {x: 384.5, y: 590}
+    parentNodeId: 
+    nextNodeIds: []
+  startNodeId: 
